@@ -1,3 +1,3 @@
-## MiLook IOS SDK Demo
+## MiLook SDK Demo
 
 ![image](appicon.png)
