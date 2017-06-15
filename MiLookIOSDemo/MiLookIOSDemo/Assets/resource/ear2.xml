@@ -1,0 +1,12 @@
+<data facialPart="Hat" description="Milook" name="Milook">
+  <lEye x="0.1" y="0.5" />
+  <rEye x="0.9" y="0.5" />
+  <modelOffset x="0.1" y="-44.54015" z="42.24917" />
+  <modelScale x="1" y="1" z="1" />
+  <triggers>
+    <item>
+      <trigger expression="EX_DEF" threshold="0" />
+      <image imageType="animation" imageName="Ear_1.xml" repeatTimes="0" />
+    </item>
+  </triggers>
+</data>

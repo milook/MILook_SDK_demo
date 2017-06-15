@@ -1,0 +1,9 @@
+<data name="01_000224" facialPart="Mask" filters="none">
+        <triggers>
+            <item>
+                <trigger expression="EX_DEF" threshold="0"/>
+                <image imageType="animation" imageName="05_004001.scnassets.xml" repeatTimes="1"/>
+                 <active type="face|jaw|beauty" value="0"/>
+            </item>
+        </triggers>
+</data>

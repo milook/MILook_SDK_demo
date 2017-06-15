@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF00A6381E10C45E002AE4E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00A6371E10C45E002AE4E5 /* main.m */; };
+		EF00A63B1E10C45E002AE4E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00A63A1E10C45E002AE4E5 /* AppDelegate.m */; };
+		EF00A63E1E10C45E002AE4E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00A63D1E10C45E002AE4E5 /* ViewController.m */; };
+		EF00A6411E10C45E002AE4E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00A63F1E10C45E002AE4E5 /* Main.storyboard */; };
+		EF00A6431E10C45E002AE4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF00A6421E10C45E002AE4E5 /* Assets.xcassets */; };
+		EF00A6461E10C45E002AE4E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00A6441E10C45E002AE4E5 /* LaunchScreen.storyboard */; };
+		EF1184571E35FB56000617A4 /* ActionSheetDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1184561E35FB56000617A4 /* ActionSheetDelegate.m */; };
+		EF263E381E2F582500C957DB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF263E371E2F582500C957DB /* Photos.framework */; };
+		EF4AEB641EF292FB00FC4FC0 /* MiLookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4AEB631EF292FB00FC4FC0 /* MiLookSDK.framework */; };
+		EF4AEB651EF292FC00FC4FC0 /* MiLookSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4AEB631EF292FB00FC4FC0 /* MiLookSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4AEB6E1EF2938D00FC4FC0 /* IQActionSheetPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEB6B1EF2938D00FC4FC0 /* IQActionSheetPickerView.m */; };
+		EF4AEB6F1EF2938D00FC4FC0 /* IQActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEB6D1EF2938D00FC4FC0 /* IQActionSheetViewController.m */; };
+		EF6222021E1E3EBC008B0244 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF6221FF1E1E3EBC008B0244 /* Info.plist */; };
+		EF6222091E1E3ED9008B0244 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6222041E1E3ED9008B0244 /* JSONModel.m */; };
+		EF62220A1E1E3ED9008B0244 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6222061E1E3ED9008B0244 /* JSONModelClassProperty.m */; };
+		EF62220B1E1E3ED9008B0244 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6222081E1E3ED9008B0244 /* JSONModelError.m */; };
+		EF6222121E1E3EE3008B0244 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62220D1E1E3EE3008B0244 /* JSONAPI.m */; };
+		EF6222131E1E3EE3008B0244 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62220F1E1E3EE3008B0244 /* JSONHTTPClient.m */; };
+		EF6222141E1E3EE3008B0244 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6222111E1E3EE3008B0244 /* JSONModel+networking.m */; };
+		EF6222191E1E3EED008B0244 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6222161E1E3EED008B0244 /* JSONKeyMapper.m */; };
+		EF62221A1E1E3EED008B0244 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6222181E1E3EED008B0244 /* JSONValueTransformer.m */; };
+		EF6222221E1E3F0C008B0244 /* CameraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62221D1E1E3F0C008B0244 /* CameraModel.m */; };
+		EF6222231E1E3F0C008B0244 /* DecorationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62221F1E1E3F0C008B0244 /* DecorationModel.m */; };
+		EF62223C1E1E4120008B0244 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF62223B1E1E4120008B0244 /* AVFoundation.framework */; };
+		EF62223E1E1E412D008B0244 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF62223D1E1E412D008B0244 /* OpenGLES.framework */; };
+		EF6222401E1E4137008B0244 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF62223F1E1E4137008B0244 /* CoreMedia.framework */; };
+		EF6222421E1E4140008B0244 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6222411E1E4140008B0244 /* UIKit.framework */; };
+		EF6222441E1E4158008B0244 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6222431E1E4158008B0244 /* CoreFoundation.framework */; };
+		EF6222461E1E4164008B0244 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6222451E1E4164008B0244 /* CoreGraphics.framework */; };
+		EF6222481E1E4171008B0244 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6222471E1E4171008B0244 /* CoreVideo.framework */; };
+		EF62224A1E1E4178008B0244 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6222491E1E4178008B0244 /* QuartzCore.framework */; };
+		EFE5E80F1E88B0A200D80652 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = EFE5E80E1E88B0A200D80652 /* resource */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF4AEB661EF292FC00FC4FC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EF4AEB651EF292FC00FC4FC0 /* MiLookSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF00A6331E10C45E002AE4E5 /* MiLookIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiLookIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF00A6371E10C45E002AE4E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF00A6391E10C45E002AE4E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF00A63A1E10C45E002AE4E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF00A63C1E10C45E002AE4E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF00A63D1E10C45E002AE4E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF00A6401E10C45E002AE4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF00A6421E10C45E002AE4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF00A6451E10C45E002AE4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF00A6471E10C45E002AE4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1184551E35FB56000617A4 /* ActionSheetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionSheetDelegate.h; path = utils/ActionSheetDelegate.h; sourceTree = "<group>"; };
+		EF1184561E35FB56000617A4 /* ActionSheetDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDelegate.m; path = utils/ActionSheetDelegate.m; sourceTree = "<group>"; };
+		EF263E371E2F582500C957DB /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		EF4AEB631EF292FB00FC4FC0 /* MiLookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MiLookSDK.framework; sourceTree = "<group>"; };
+		EF4AEB6A1EF2938D00FC4FC0 /* IQActionSheetPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQActionSheetPickerView.h; path = IQActionSheetPickerView/IQActionSheetPickerView.h; sourceTree = "<group>"; };
+		EF4AEB6B1EF2938D00FC4FC0 /* IQActionSheetPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQActionSheetPickerView.m; path = IQActionSheetPickerView/IQActionSheetPickerView.m; sourceTree = "<group>"; };
+		EF4AEB6C1EF2938D00FC4FC0 /* IQActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQActionSheetViewController.h; path = IQActionSheetPickerView/IQActionSheetViewController.h; sourceTree = "<group>"; };
+		EF4AEB6D1EF2938D00FC4FC0 /* IQActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQActionSheetViewController.m; path = IQActionSheetPickerView/IQActionSheetViewController.m; sourceTree = "<group>"; };
+		EF6221FF1E1E3EBC008B0244 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JSONModel/Info.plist; sourceTree = "<group>"; };
+		EF6222001E1E3EBC008B0244 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		EF6222011E1E3EBC008B0244 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = JSONModel/module.modulemap; sourceTree = "<group>"; };
+		EF6222031E1E3ED9008B0244 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		EF6222041E1E3ED9008B0244 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		EF6222051E1E3ED9008B0244 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		EF6222061E1E3ED9008B0244 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		EF6222071E1E3ED9008B0244 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		EF6222081E1E3ED9008B0244 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		EF62220C1E1E3EE3008B0244 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		EF62220D1E1E3EE3008B0244 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		EF62220E1E1E3EE3008B0244 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		EF62220F1E1E3EE3008B0244 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		EF6222101E1E3EE3008B0244 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		EF6222111E1E3EE3008B0244 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		EF6222151E1E3EED008B0244 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		EF6222161E1E3EED008B0244 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		EF6222171E1E3EED008B0244 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		EF6222181E1E3EED008B0244 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		EF62221C1E1E3F0C008B0244 /* CameraModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraModel.h; path = Model/CameraModel.h; sourceTree = "<group>"; };
+		EF62221D1E1E3F0C008B0244 /* CameraModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraModel.m; path = Model/CameraModel.m; sourceTree = "<group>"; };
+		EF62221E1E1E3F0C008B0244 /* DecorationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecorationModel.h; path = Model/DecorationModel.h; sourceTree = "<group>"; };
+		EF62221F1E1E3F0C008B0244 /* DecorationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecorationModel.m; path = Model/DecorationModel.m; sourceTree = "<group>"; };
+		EF62223B1E1E4120008B0244 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF62223D1E1E412D008B0244 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EF62223F1E1E4137008B0244 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EF6222411E1E4140008B0244 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF6222431E1E4158008B0244 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EF6222451E1E4164008B0244 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF6222471E1E4171008B0244 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EF6222491E1E4178008B0244 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFE5E80E1E88B0A200D80652 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = resource; path = Assets/resource; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF00A6301E10C45E002AE4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4AEB641EF292FB00FC4FC0 /* MiLookSDK.framework in Frameworks */,
+				EF263E381E2F582500C957DB /* Photos.framework in Frameworks */,
+				EF62224A1E1E4178008B0244 /* QuartzCore.framework in Frameworks */,
+				EF6222481E1E4171008B0244 /* CoreVideo.framework in Frameworks */,
+				EF6222461E1E4164008B0244 /* CoreGraphics.framework in Frameworks */,
+				EF6222441E1E4158008B0244 /* CoreFoundation.framework in Frameworks */,
+				EF6222421E1E4140008B0244 /* UIKit.framework in Frameworks */,
+				EF6222401E1E4137008B0244 /* CoreMedia.framework in Frameworks */,
+				EF62223E1E1E412D008B0244 /* OpenGLES.framework in Frameworks */,
+				EF62223C1E1E4120008B0244 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF00A62A1E10C45E002AE4E5 = {
+			isa = PBXGroup;
+			children = (
+				EF00A6351E10C45E002AE4E5 /* MiLookIOSDemo */,
+				EF00A6341E10C45E002AE4E5 /* Products */,
+				EF62223A1E1E4120008B0244 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF00A6341E10C45E002AE4E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF00A6331E10C45E002AE4E5 /* MiLookIOSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF00A6351E10C45E002AE4E5 /* MiLookIOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF4AEB691EF2938300FC4FC0 /* IQActionSheetPickerView */,
+				EF1184541E35FB3C000617A4 /* utils */,
+				EF6222291E1E3FA3008B0244 /* Assets */,
+				EF62221B1E1E3F02008B0244 /* Model */,
+				EF6221FE1E1E3EA2008B0244 /* JSONModel */,
+				EF00A6391E10C45E002AE4E5 /* AppDelegate.h */,
+				EF00A63A1E10C45E002AE4E5 /* AppDelegate.m */,
+				EF00A63C1E10C45E002AE4E5 /* ViewController.h */,
+				EF00A63D1E10C45E002AE4E5 /* ViewController.m */,
+				EF00A63F1E10C45E002AE4E5 /* Main.storyboard */,
+				EF00A6421E10C45E002AE4E5 /* Assets.xcassets */,
+				EF00A6441E10C45E002AE4E5 /* LaunchScreen.storyboard */,
+				EF00A6471E10C45E002AE4E5 /* Info.plist */,
+				EF00A6361E10C45E002AE4E5 /* Supporting Files */,
+			);
+			path = MiLookIOSDemo;
+			sourceTree = "<group>";
+		};
+		EF00A6361E10C45E002AE4E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF00A6371E10C45E002AE4E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF1184541E35FB3C000617A4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF1184551E35FB56000617A4 /* ActionSheetDelegate.h */,
+				EF1184561E35FB56000617A4 /* ActionSheetDelegate.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		EF4AEB691EF2938300FC4FC0 /* IQActionSheetPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				EF4AEB6A1EF2938D00FC4FC0 /* IQActionSheetPickerView.h */,
+				EF4AEB6B1EF2938D00FC4FC0 /* IQActionSheetPickerView.m */,
+				EF4AEB6C1EF2938D00FC4FC0 /* IQActionSheetViewController.h */,
+				EF4AEB6D1EF2938D00FC4FC0 /* IQActionSheetViewController.m */,
+			);
+			name = IQActionSheetPickerView;
+			sourceTree = "<group>";
+		};
+		EF6221FE1E1E3EA2008B0244 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF6222151E1E3EED008B0244 /* JSONKeyMapper.h */,
+				EF6222161E1E3EED008B0244 /* JSONKeyMapper.m */,
+				EF6222171E1E3EED008B0244 /* JSONValueTransformer.h */,
+				EF6222181E1E3EED008B0244 /* JSONValueTransformer.m */,
+				EF62220C1E1E3EE3008B0244 /* JSONAPI.h */,
+				EF62220D1E1E3EE3008B0244 /* JSONAPI.m */,
+				EF62220E1E1E3EE3008B0244 /* JSONHTTPClient.h */,
+				EF62220F1E1E3EE3008B0244 /* JSONHTTPClient.m */,
+				EF6222101E1E3EE3008B0244 /* JSONModel+networking.h */,
+				EF6222111E1E3EE3008B0244 /* JSONModel+networking.m */,
+				EF6222031E1E3ED9008B0244 /* JSONModel.h */,
+				EF6222041E1E3ED9008B0244 /* JSONModel.m */,
+				EF6222051E1E3ED9008B0244 /* JSONModelClassProperty.h */,
+				EF6222061E1E3ED9008B0244 /* JSONModelClassProperty.m */,
+				EF6222071E1E3ED9008B0244 /* JSONModelError.h */,
+				EF6222081E1E3ED9008B0244 /* JSONModelError.m */,
+				EF6221FF1E1E3EBC008B0244 /* Info.plist */,
+				EF6222001E1E3EBC008B0244 /* JSONModelLib.h */,
+				EF6222011E1E3EBC008B0244 /* module.modulemap */,
+			);
+			name = JSONModel;
+			sourceTree = "<group>";
+		};
+		EF62221B1E1E3F02008B0244 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF62221C1E1E3F0C008B0244 /* CameraModel.h */,
+				EF62221D1E1E3F0C008B0244 /* CameraModel.m */,
+				EF62221E1E1E3F0C008B0244 /* DecorationModel.h */,
+				EF62221F1E1E3F0C008B0244 /* DecorationModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF6222291E1E3FA3008B0244 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EFE5E80E1E88B0A200D80652 /* resource */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		EF62223A1E1E4120008B0244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4AEB631EF292FB00FC4FC0 /* MiLookSDK.framework */,
+				EF263E371E2F582500C957DB /* Photos.framework */,
+				EF6222491E1E4178008B0244 /* QuartzCore.framework */,
+				EF6222471E1E4171008B0244 /* CoreVideo.framework */,
+				EF6222451E1E4164008B0244 /* CoreGraphics.framework */,
+				EF6222431E1E4158008B0244 /* CoreFoundation.framework */,
+				EF6222411E1E4140008B0244 /* UIKit.framework */,
+				EF62223F1E1E4137008B0244 /* CoreMedia.framework */,
+				EF62223D1E1E412D008B0244 /* OpenGLES.framework */,
+				EF62223B1E1E4120008B0244 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF00A6321E10C45E002AE4E5 /* MiLookIOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF00A64A1E10C45E002AE4E5 /* Build configuration list for PBXNativeTarget "MiLookIOSDemo" */;
+			buildPhases = (
+				EF00A62F1E10C45E002AE4E5 /* Sources */,
+				EF00A6301E10C45E002AE4E5 /* Frameworks */,
+				EF00A6311E10C45E002AE4E5 /* Resources */,
+				EF4AEB661EF292FC00FC4FC0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiLookIOSDemo;
+			productName = MiLookIOSDemo;
+			productReference = EF00A6331E10C45E002AE4E5 /* MiLookIOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF00A62B1E10C45E002AE4E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = houyinbo;
+				TargetAttributes = {
+					EF00A6321E10C45E002AE4E5 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8JG22Q59U3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF00A62E1E10C45E002AE4E5 /* Build configuration list for PBXProject "MiLookIOSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF00A62A1E10C45E002AE4E5;
+			productRefGroup = EF00A6341E10C45E002AE4E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF00A6321E10C45E002AE4E5 /* MiLookIOSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF00A6311E10C45E002AE4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE5E80F1E88B0A200D80652 /* resource in Resources */,
+				EF6222021E1E3EBC008B0244 /* Info.plist in Resources */,
+				EF00A6461E10C45E002AE4E5 /* LaunchScreen.storyboard in Resources */,
+				EF00A6431E10C45E002AE4E5 /* Assets.xcassets in Resources */,
+				EF00A6411E10C45E002AE4E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF00A62F1E10C45E002AE4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6222121E1E3EE3008B0244 /* JSONAPI.m in Sources */,
+				EF62220B1E1E3ED9008B0244 /* JSONModelError.m in Sources */,
+				EF1184571E35FB56000617A4 /* ActionSheetDelegate.m in Sources */,
+				EF00A63E1E10C45E002AE4E5 /* ViewController.m in Sources */,
+				EF6222091E1E3ED9008B0244 /* JSONModel.m in Sources */,
+				EF4AEB6E1EF2938D00FC4FC0 /* IQActionSheetPickerView.m in Sources */,
+				EF6222231E1E3F0C008B0244 /* DecorationModel.m in Sources */,
+				EF6222191E1E3EED008B0244 /* JSONKeyMapper.m in Sources */,
+				EF4AEB6F1EF2938D00FC4FC0 /* IQActionSheetViewController.m in Sources */,
+				EF6222141E1E3EE3008B0244 /* JSONModel+networking.m in Sources */,
+				EF62221A1E1E3EED008B0244 /* JSONValueTransformer.m in Sources */,
+				EF6222131E1E3EE3008B0244 /* JSONHTTPClient.m in Sources */,
+				EF62220A1E1E3ED9008B0244 /* JSONModelClassProperty.m in Sources */,
+				EF00A63B1E10C45E002AE4E5 /* AppDelegate.m in Sources */,
+				EF6222221E1E3F0C008B0244 /* CameraModel.m in Sources */,
+				EF00A6381E10C45E002AE4E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF00A63F1E10C45E002AE4E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF00A6401E10C45E002AE4E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF00A6441E10C45E002AE4E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF00A6451E10C45E002AE4E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF00A6481E10C45E002AE4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF00A6491E10C45E002AE4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF00A64B1E10C45E002AE4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JG22Q59U3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiLookIOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milook.sdk.MiLookIOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		EF00A64C1E10C45E002AE4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JG22Q59U3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiLookIOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milook.sdk.MiLookIOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF00A62E1E10C45E002AE4E5 /* Build configuration list for PBXProject "MiLookIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF00A6481E10C45E002AE4E5 /* Debug */,
+				EF00A6491E10C45E002AE4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF00A64A1E10C45E002AE4E5 /* Build configuration list for PBXNativeTarget "MiLookIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF00A64B1E10C45E002AE4E5 /* Debug */,
+				EF00A64C1E10C45E002AE4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF00A62B1E10C45E002AE4E5 /* Project object */;
+}
