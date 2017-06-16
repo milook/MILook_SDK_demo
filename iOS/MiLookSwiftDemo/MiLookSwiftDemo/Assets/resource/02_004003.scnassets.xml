@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:cb2d7adca68f95cd20a2c36dfa990b68:1/1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="02_004003.scnassets.png" width="2048" height="2048">
+    <sprite n="02_004003_01_01.png" x="646" y="1290" w="320" h="320"/>
+    <sprite n="02_004003_01_02.png" x="646" y="968" w="320" h="320"/>
+    <sprite n="02_004003_01_03.png" x="646" y="646" w="320" h="320"/>
+    <sprite n="02_004003_01_04.png" x="1612" y="324" w="320" h="320"/>
+    <sprite n="02_004003_01_05.png" x="1290" y="324" w="320" h="320"/>
+    <sprite n="02_004003_01_06.png" x="968" y="324" w="320" h="320"/>
+    <sprite n="02_004003_01_07.png" x="646" y="324" w="320" h="320"/>
+    <sprite n="02_004003_01_08.png" x="324" y="1612" w="320" h="320"/>
+    <sprite n="02_004003_01_09.png" x="324" y="1290" w="320" h="320"/>
+    <sprite n="02_004003_01_10.png" x="324" y="968" w="320" h="320"/>
+    <sprite n="02_004003_01_11.png" x="324" y="646" w="320" h="320"/>
+    <sprite n="02_004003_01_12.png" x="324" y="324" w="320" h="320"/>
+    <sprite n="02_004003_01_13.png" x="1612" y="2" w="320" h="320"/>
+    <sprite n="02_004003_01_14.png" x="1290" y="2" w="320" h="320"/>
+    <sprite n="02_004003_01_15.png" x="968" y="2" w="320" h="320"/>
+    <sprite n="02_004003_01_16.png" x="646" y="2" w="320" h="320"/>
+    <sprite n="02_004003_01_17.png" x="324" y="2" w="320" h="320"/>
+    <sprite n="02_004003_01_18.png" x="2" y="1612" w="320" h="320"/>
+    <sprite n="02_004003_01_19.png" x="2" y="1290" w="320" h="320"/>
+    <sprite n="02_004003_01_20.png" x="2" y="968" w="320" h="320"/>
+    <sprite n="02_004003_01_21.png" x="2" y="646" w="320" h="320"/>
+    <sprite n="02_004003_01_22.png" x="2" y="324" w="320" h="320"/>
+    <sprite n="02_004003_01_23.png" x="2" y="2" w="320" h="320"/>
+</TextureAtlas>

@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "393573DA3F4C56753AD07A3D2A479BF4DD0D0438",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E67B54634DB5BCFF2382088628DB08BF1EF332FA" : 9223372036854775807,
+    "141725C8E9D48120E0EB03D061B6CB6F04D39B65" : 9223372036854775807,
+    "954A0049A4626FE2CA35992B22D919F6B65E398B" : 9223372036854775807,
+    "393573DA3F4C56753AD07A3D2A479BF4DD0D0438" : 9223372036854775807,
+    "FD3A044CE937C23FC35C63760B8550CEEECA4664" : 9223372036854775807,
+    "E14413A51A1A64815113F2EDE17FC30215E123CC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4CF5D1FE-9AD6-411F-917E-EDD947321CFC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E67B54634DB5BCFF2382088628DB08BF1EF332FA" : "milo_ios_v2\/",
+    "141725C8E9D48120E0EB03D061B6CB6F04D39B65" : "CommonKit\/",
+    "954A0049A4626FE2CA35992B22D919F6B65E398B" : "MiLookSDK_3DEngine\/",
+    "393573DA3F4C56753AD07A3D2A479BF4DD0D0438" : "MiLookSDK_iOS\/",
+    "FD3A044CE937C23FC35C63760B8550CEEECA4664" : "huangpu_ios\/",
+    "E14413A51A1A64815113F2EDE17FC30215E123CC" : "MLVideoEngine\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MiLookSwiftDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MiLookSwiftDemo\/MiLookSwiftDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/milook\/CommonKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "141725C8E9D48120E0EB03D061B6CB6F04D39B65"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/milook\/MiLookSDK_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "393573DA3F4C56753AD07A3D2A479BF4DD0D0438"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:milook\/MiLookSDK_3DEngine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "954A0049A4626FE2CA35992B22D919F6B65E398B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/milook\/MLVideoEngine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E14413A51A1A64815113F2EDE17FC30215E123CC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/milook\/milo_ios_v2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E67B54634DB5BCFF2382088628DB08BF1EF332FA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/milook\/huangpu_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD3A044CE937C23FC35C63760B8550CEEECA4664"
+    }
+  ]
+}

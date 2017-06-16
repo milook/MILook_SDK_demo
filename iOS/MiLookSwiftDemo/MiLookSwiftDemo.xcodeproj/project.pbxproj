@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5277FA3BFC934A668C8A88CD /* Pods_MiLookSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E153DF61A3F5A3854C647F57 /* Pods_MiLookSwiftDemo.framework */; };
+		EF10422E1EBC54DE00C80BB7 /* OpenAlbumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF10422D1EBC54DE00C80BB7 /* OpenAlbumsVC.swift */; };
+		EF1042321EBC54F600C80BB7 /* DecorationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF10422F1EBC54F600C80BB7 /* DecorationModel.swift */; };
+		EF743EE41EB876650077CBFD /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF743EE21EB876650077CBFD /* TimelineView.swift */; };
+		EF743EE51EB876650077CBFD /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF743EE31EB876650077CBFD /* VideoViewController.swift */; };
+		EF8276041ECEA60100EEC4FE /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8276031ECEA60100EEC4FE /* DispatchQueue.swift */; };
+		EF93C8061EC00B6100B71C04 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF93C8051EC00B6100B71C04 /* PlayViewController.swift */; };
+		EF9E0D6E1EB7228100347B6F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E0D6B1EB7228100347B6F /* MainVC.swift */; };
+		EF9E0D791EB722B200347B6F /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E0D751EB722B200347B6F /* ImageCollectionViewCell.swift */; };
+		EF9E0D7A1EB722B200347B6F /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF9E0D761EB722B200347B6F /* ImageCollectionViewCell.xib */; };
+		EFA45AA71EA7750F008DD4FB /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA45AA61EA7750F008DD4FB /* CameraModel.swift */; };
+		EFB1F22F1EBB293400987378 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = EFB1F22E1EBB293400987378 /* resource */; };
+		EFE6B2871DDAF22E00A6BFC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE6B2861DDAF22E00A6BFC3 /* AppDelegate.swift */; };
+		EFE6B28C1DDAF22E00A6BFC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE6B28A1DDAF22E00A6BFC3 /* Main.storyboard */; };
+		EFE6B28E1DDAF22E00A6BFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE6B28D1DDAF22E00A6BFC3 /* Assets.xcassets */; };
+		EFE6B2911DDAF22E00A6BFC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE6B28F1DDAF22E00A6BFC3 /* LaunchScreen.storyboard */; };
+		EFE7AB651E767B25009495F5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7AB641E767B25009495F5 /* Package.swift */; };
+		EFF2966E1EF392440039903D /* MiLookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF2966D1EF392440039903D /* MiLookSDK.framework */; };
+		EFF2966F1EF392440039903D /* MiLookSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFF2966D1EF392440039903D /* MiLookSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EFF9FE7D1EB9C31E000FD97F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9FE7C1EB9C31E000FD97F /* AssetsLibrary.framework */; };
+		EFFF81871E88E7B700F8F8DA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF81861E88E7B700F8F8DA /* OpenGLES.framework */; };
+		EFFF81891E88E7C400F8F8DA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF81881E88E7C400F8F8DA /* CoreAudio.framework */; };
+		EFFF818B1E88E7D500F8F8DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF818A1E88E7D500F8F8DA /* AVFoundation.framework */; };
+		EFFF818D1E88E7ED00F8F8DA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF818C1E88E7ED00F8F8DA /* CoreVideo.framework */; };
+		EFFF818F1E88E82C00F8F8DA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF818E1E88E82C00F8F8DA /* CoreMedia.framework */; };
+		EFFF81941E88E96400F8F8DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF81931E88E96400F8F8DA /* CoreGraphics.framework */; };
+		EFFF81961E88E96E00F8F8DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF81951E88E96E00F8F8DA /* UIKit.framework */; };
+		EFFF81981E88EA3900F8F8DA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF81971E88EA3900F8F8DA /* CoreFoundation.framework */; };
+		EFFF819A1E88EA5700F8F8DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFF81991E88EA5700F8F8DA /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFE2403E1ECD3A0100920BE4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EFF2966F1EF392440039903D /* MiLookSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DB9E24591DF2955F4906681 /* Pods-MiLookSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiLookSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiLookSwiftDemo/Pods-MiLookSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		62BABBF1F32C281EF9BFF90D /* Pods-MiLookSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiLookSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiLookSwiftDemo/Pods-MiLookSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E153DF61A3F5A3854C647F57 /* Pods_MiLookSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiLookSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF10422D1EBC54DE00C80BB7 /* OpenAlbumsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenAlbumsVC.swift; path = Album/OpenAlbumsVC.swift; sourceTree = "<group>"; };
+		EF10422F1EBC54F600C80BB7 /* DecorationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DecorationModel.swift; path = Model/DecorationModel.swift; sourceTree = "<group>"; };
+		EF743EE21EB876650077CBFD /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineView.swift; path = VideoViewController/TimelineView.swift; sourceTree = "<group>"; };
+		EF743EE31EB876650077CBFD /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = VideoViewController/VideoViewController.swift; sourceTree = "<group>"; };
+		EF8276031ECEA60100EEC4FE /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DispatchQueue.swift; path = Media/DispatchQueue.swift; sourceTree = "<group>"; };
+		EF93C8051EC00B6100B71C04 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayViewController.swift; path = Album/PlayViewController.swift; sourceTree = "<group>"; };
+		EF9E0D6B1EB7228100347B6F /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EF9E0D751EB722B200347B6F /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = Controller/ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF9E0D761EB722B200347B6F /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageCollectionViewCell.xib; path = Controller/ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		EFA45AA61EA7750F008DD4FB /* CameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraModel.swift; path = Model/CameraModel.swift; sourceTree = "<group>"; };
+		EFB1F22E1EBB293400987378 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = resource; path = Assets/resource; sourceTree = "<group>"; };
+		EFE6B2831DDAF22E00A6BFC3 /* MiLookSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiLookSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE6B2861DDAF22E00A6BFC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFE6B28B1DDAF22E00A6BFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE6B28D1DDAF22E00A6BFC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE6B2901DDAF22E00A6BFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFE6B2921DDAF22E00A6BFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE7AB641E767B25009495F5 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		EFF2966D1EF392440039903D /* MiLookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MiLookSDK.framework; sourceTree = "<group>"; };
+		EFF9FE7C1EB9C31E000FD97F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		EFFF81861E88E7B700F8F8DA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EFFF81881E88E7C400F8F8DA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EFFF818A1E88E7D500F8F8DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EFFF818C1E88E7ED00F8F8DA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EFFF818E1E88E82C00F8F8DA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EFFF81931E88E96400F8F8DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFFF81951E88E96E00F8F8DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFFF81971E88EA3900F8F8DA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EFFF81991E88EA5700F8F8DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE6B2801DDAF22E00A6BFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF9FE7D1EB9C31E000FD97F /* AssetsLibrary.framework in Frameworks */,
+				EFFF819A1E88EA5700F8F8DA /* QuartzCore.framework in Frameworks */,
+				EFFF81981E88EA3900F8F8DA /* CoreFoundation.framework in Frameworks */,
+				EFFF81961E88E96E00F8F8DA /* UIKit.framework in Frameworks */,
+				EFF2966E1EF392440039903D /* MiLookSDK.framework in Frameworks */,
+				EFFF81941E88E96400F8F8DA /* CoreGraphics.framework in Frameworks */,
+				EFFF818F1E88E82C00F8F8DA /* CoreMedia.framework in Frameworks */,
+				EFFF818D1E88E7ED00F8F8DA /* CoreVideo.framework in Frameworks */,
+				EFFF818B1E88E7D500F8F8DA /* AVFoundation.framework in Frameworks */,
+				EFFF81891E88E7C400F8F8DA /* CoreAudio.framework in Frameworks */,
+				EFFF81871E88E7B700F8F8DA /* OpenGLES.framework in Frameworks */,
+				5277FA3BFC934A668C8A88CD /* Pods_MiLookSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		699F7B4D2A9950AC061C0E18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DB9E24591DF2955F4906681 /* Pods-MiLookSwiftDemo.debug.xcconfig */,
+				62BABBF1F32C281EF9BFF90D /* Pods-MiLookSwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94E553178AFCC6E342B89E6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF2966D1EF392440039903D /* MiLookSDK.framework */,
+				EFF9FE7C1EB9C31E000FD97F /* AssetsLibrary.framework */,
+				EFFF81991E88EA5700F8F8DA /* QuartzCore.framework */,
+				EFFF81971E88EA3900F8F8DA /* CoreFoundation.framework */,
+				EFFF81951E88E96E00F8F8DA /* UIKit.framework */,
+				EFFF81931E88E96400F8F8DA /* CoreGraphics.framework */,
+				EFFF818E1E88E82C00F8F8DA /* CoreMedia.framework */,
+				EFFF818C1E88E7ED00F8F8DA /* CoreVideo.framework */,
+				EFFF818A1E88E7D500F8F8DA /* AVFoundation.framework */,
+				EFFF81881E88E7C400F8F8DA /* CoreAudio.framework */,
+				EFFF81861E88E7B700F8F8DA /* OpenGLES.framework */,
+				E153DF61A3F5A3854C647F57 /* Pods_MiLookSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4927C01E725B52007E4C8B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EFB1F22E1EBB293400987378 /* resource */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		EF6C51D01ECDFE380023FDAA /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				EF9E0D6B1EB7228100347B6F /* MainVC.swift */,
+				EF8276031ECEA60100EEC4FE /* DispatchQueue.swift */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		EF743EE11EB876450077CBFD /* VideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF743EE21EB876650077CBFD /* TimelineView.swift */,
+				EF743EE31EB876650077CBFD /* VideoViewController.swift */,
+			);
+			name = VideoViewController;
+			sourceTree = "<group>";
+		};
+		EF816CF01E7685F3007B8EFA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EFE6B2861DDAF22E00A6BFC3 /* AppDelegate.swift */,
+				EFE7AB641E767B25009495F5 /* Package.swift */,
+				EFE6B28D1DDAF22E00A6BFC3 /* Assets.xcassets */,
+				EFE6B28F1DDAF22E00A6BFC3 /* LaunchScreen.storyboard */,
+				EFE6B2921DDAF22E00A6BFC3 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		EF9E0D731EB722A800347B6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF9E0D751EB722B200347B6F /* ImageCollectionViewCell.swift */,
+				EF9E0D761EB722B200347B6F /* ImageCollectionViewCell.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EFA45AA51EA774DA008DD4FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF10422F1EBC54F600C80BB7 /* DecorationModel.swift */,
+				EFA45AA61EA7750F008DD4FB /* CameraModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EFA5CEE01E18826C000904A4 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				EFE6B28A1DDAF22E00A6BFC3 /* Main.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		EFB1F1F31EBAE5AF00987378 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				EF93C8051EC00B6100B71C04 /* PlayViewController.swift */,
+				EF10422D1EBC54DE00C80BB7 /* OpenAlbumsVC.swift */,
+			);
+			name = Album;
+			sourceTree = "<group>";
+		};
+		EFE6B27A1DDAF22E00A6BFC3 = {
+			isa = PBXGroup;
+			children = (
+				EFE6B2851DDAF22E00A6BFC3 /* MiLookSwiftDemo */,
+				EFE6B2841DDAF22E00A6BFC3 /* Products */,
+				699F7B4D2A9950AC061C0E18 /* Pods */,
+				94E553178AFCC6E342B89E6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE6B2841DDAF22E00A6BFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE6B2831DDAF22E00A6BFC3 /* MiLookSwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE6B2851DDAF22E00A6BFC3 /* MiLookSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF6C51D01ECDFE380023FDAA /* Media */,
+				EFB1F1F31EBAE5AF00987378 /* Album */,
+				EF743EE11EB876450077CBFD /* VideoViewController */,
+				EFA5CEE01E18826C000904A4 /* StoryBoards */,
+				EF9E0D731EB722A800347B6F /* Controller */,
+				EFA45AA51EA774DA008DD4FB /* Model */,
+				EF816CF01E7685F3007B8EFA /* Support */,
+				EF4927C01E725B52007E4C8B /* Assets */,
+			);
+			path = MiLookSwiftDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE6B2821DDAF22E00A6BFC3 /* MiLookSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE6B2951DDAF22E00A6BFC3 /* Build configuration list for PBXNativeTarget "MiLookSwiftDemo" */;
+			buildPhases = (
+				EF5669A41751C8D4DD0DF38D /* [CP] Check Pods Manifest.lock */,
+				EFE6B27F1DDAF22E00A6BFC3 /* Sources */,
+				EFE6B2801DDAF22E00A6BFC3 /* Frameworks */,
+				EFE6B2811DDAF22E00A6BFC3 /* Resources */,
+				D51968DE481913674BDEBA72 /* [CP] Embed Pods Frameworks */,
+				BDA516F553E982A0F7F1A542 /* [CP] Copy Pods Resources */,
+				EFE2403E1ECD3A0100920BE4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiLookSwiftDemo;
+			productName = MiLookSwiftDemo;
+			productReference = EFE6B2831DDAF22E00A6BFC3 /* MiLookSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE6B27B1DDAF22E00A6BFC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = houyinbo;
+				TargetAttributes = {
+					EFE6B2821DDAF22E00A6BFC3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AH97FD79AD;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFE6B27E1DDAF22E00A6BFC3 /* Build configuration list for PBXProject "MiLookSwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE6B27A1DDAF22E00A6BFC3;
+			productRefGroup = EFE6B2841DDAF22E00A6BFC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE6B2821DDAF22E00A6BFC3 /* MiLookSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE6B2811DDAF22E00A6BFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB1F22F1EBB293400987378 /* resource in Resources */,
+				EFE6B2911DDAF22E00A6BFC3 /* LaunchScreen.storyboard in Resources */,
+				EFE6B28E1DDAF22E00A6BFC3 /* Assets.xcassets in Resources */,
+				EF9E0D7A1EB722B200347B6F /* ImageCollectionViewCell.xib in Resources */,
+				EFE6B28C1DDAF22E00A6BFC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDA516F553E982A0F7F1A542 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiLookSwiftDemo/Pods-MiLookSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51968DE481913674BDEBA72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiLookSwiftDemo/Pods-MiLookSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5669A41751C8D4DD0DF38D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE6B27F1DDAF22E00A6BFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8276041ECEA60100EEC4FE /* DispatchQueue.swift in Sources */,
+				EF93C8061EC00B6100B71C04 /* PlayViewController.swift in Sources */,
+				EFE7AB651E767B25009495F5 /* Package.swift in Sources */,
+				EF9E0D791EB722B200347B6F /* ImageCollectionViewCell.swift in Sources */,
+				EF1042321EBC54F600C80BB7 /* DecorationModel.swift in Sources */,
+				EFA45AA71EA7750F008DD4FB /* CameraModel.swift in Sources */,
+				EFE6B2871DDAF22E00A6BFC3 /* AppDelegate.swift in Sources */,
+				EF743EE41EB876650077CBFD /* TimelineView.swift in Sources */,
+				EF9E0D6E1EB7228100347B6F /* MainVC.swift in Sources */,
+				EF743EE51EB876650077CBFD /* VideoViewController.swift in Sources */,
+				EF10422E1EBC54DE00C80BB7 /* OpenAlbumsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFE6B28A1DDAF22E00A6BFC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE6B28B1DDAF22E00A6BFC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFE6B28F1DDAF22E00A6BFC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE6B2901DDAF22E00A6BFC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE6B2931DDAF22E00A6BFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE6B2941DDAF22E00A6BFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE6B2961DDAF22E00A6BFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB9E24591DF2955F4906681 /* Pods-MiLookSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = AH97FD79AD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiLookSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milook.sdk.MiLookSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MiLookSwiftDemo/MiLookSwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE6B2971DDAF22E00A6BFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BABBF1F32C281EF9BFF90D /* Pods-MiLookSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = AH97FD79AD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiLookSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milook.sdk.MiLookSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MiLookSwiftDemo/MiLookSwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE6B27E1DDAF22E00A6BFC3 /* Build configuration list for PBXProject "MiLookSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE6B2931DDAF22E00A6BFC3 /* Debug */,
+				EFE6B2941DDAF22E00A6BFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE6B2951DDAF22E00A6BFC3 /* Build configuration list for PBXNativeTarget "MiLookSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE6B2961DDAF22E00A6BFC3 /* Debug */,
+				EFE6B2971DDAF22E00A6BFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE6B27B1DDAF22E00A6BFC3 /* Project object */;
+}

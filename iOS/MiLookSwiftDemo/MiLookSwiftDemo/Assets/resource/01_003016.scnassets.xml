@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7c8be8ec10ec6535715943c732dd65f9:1/1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="01_003016.scnassets.png" width="2048" height="2048">
+    <sprite n="01_003016.png" x="1106" y="967" w="550" h="191"/>
+    <sprite n="01_003016_01_02.png" x="554" y="967" w="550" h="191"/>
+    <sprite n="01_003016_01_03.png" x="1106" y="774" w="550" h="191"/>
+    <sprite n="01_003016_01_04.png" x="554" y="774" w="550" h="191"/>
+    <sprite n="01_003016_01_05.png" x="2" y="1739" w="550" h="191"/>
+    <sprite n="01_003016_01_06.png" x="2" y="1546" w="550" h="191"/>
+    <sprite n="01_003016_01_07.png" x="2" y="1353" w="550" h="191"/>
+    <sprite n="01_003016_01_08.png" x="2" y="1160" w="550" h="191"/>
+    <sprite n="01_003016_01_09.png" x="2" y="967" w="550" h="191"/>
+    <sprite n="01_003016_01_10.png" x="2" y="774" w="550" h="191"/>
+    <sprite n="01_003016_01_11.png" x="1106" y="581" w="550" h="191"/>
+    <sprite n="01_003016_01_12.png" x="554" y="581" w="550" h="191"/>
+    <sprite n="01_003016_01_13.png" x="2" y="581" w="550" h="191"/>
+    <sprite n="01_003016_01_14.png" x="1106" y="388" w="550" h="191"/>
+    <sprite n="01_003016_01_15.png" x="554" y="388" w="550" h="191"/>
+    <sprite n="01_003016_01_16.png" x="2" y="388" w="550" h="191"/>
+    <sprite n="01_003016_neutral_01.png" x="1106" y="195" w="550" h="191"/>
+    <sprite n="01_003016_neutral_02.png" x="554" y="195" w="550" h="191"/>
+    <sprite n="01_003016_neutral_03.png" x="2" y="195" w="550" h="191"/>
+    <sprite n="01_003016_neutral_04.png" x="1106" y="2" w="550" h="191"/>
+    <sprite n="01_003016_neutral_05.png" x="554" y="2" w="550" h="191"/>
+    <sprite n="01_003016_neutral_06.png" x="2" y="2" w="550" h="191"/>
+</TextureAtlas>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:07751d929ff77cf844b3fa893f3c404e:1/1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="03_003002.scnassets.png" width="1024" height="2048">
+    <sprite n="03_003002.png" x="464" y="1210" w="460" h="149"/>
+    <sprite n="03_003002_neutral_01.png" x="2" y="1210" w="460" h="149"/>
+    <sprite n="03_003002_neutral_02.png" x="464" y="1059" w="460" h="149"/>
+    <sprite n="03_003002_neutral_03.png" x="2" y="1059" w="460" h="149"/>
+    <sprite n="03_003002_neutral_04.png" x="464" y="908" w="460" h="149"/>
+    <sprite n="03_003002_neutral_05.png" x="2" y="908" w="460" h="149"/>
+    <sprite n="03_003002_neutral_06.png" x="464" y="757" w="460" h="149"/>
+    <sprite n="03_003002_neutral_07.png" x="2" y="757" w="460" h="149"/>
+    <sprite n="03_003002_neutral_08.png" x="464" y="606" w="460" h="149"/>
+    <sprite n="03_003002_neutral_09.png" x="2" y="606" w="460" h="149"/>
+    <sprite n="03_003002_neutral_10.png" x="464" y="455" w="460" h="149"/>
+    <sprite n="03_003002_neutral_11.png" x="2" y="455" w="460" h="149"/>
+    <sprite n="03_003002_neutral_12.png" x="464" y="304" w="460" h="149"/>
+    <sprite n="03_003002_neutral_13.png" x="2" y="304" w="460" h="149"/>
+    <sprite n="03_003002_neutral_14.png" x="464" y="153" w="460" h="149"/>
+    <sprite n="03_003002_neutral_15.png" x="2" y="153" w="460" h="149"/>
+    <sprite n="03_003002_neutral_16.png" x="464" y="2" w="460" h="149"/>
+    <sprite n="03_003002_neutral_17.png" x="2" y="2" w="460" h="149"/>
+</TextureAtlas>

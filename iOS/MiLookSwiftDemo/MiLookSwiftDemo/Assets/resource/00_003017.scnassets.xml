@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4d05c74049a38d2ad8f9d3f75f457668:1/1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="00_003017.scnassets.png" width="2048" height="2048">
+    <sprite n="00_003017.png" x="704" y="824" w="349" h="409"/>
+    <sprite n="00_003017_01_02.png" x="1406" y="413" w="349" h="409"/>
+    <sprite n="00_003017_01_03.png" x="1055" y="413" w="349" h="409"/>
+    <sprite n="00_003017_01_04.png" x="704" y="413" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_01.png" x="353" y="1235" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_02.png" x="353" y="824" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_03.png" x="353" y="413" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_04.png" x="1406" y="2" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_05.png" x="1055" y="2" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_06.png" x="704" y="2" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_07.png" x="353" y="2" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_08.png" x="2" y="1235" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_09.png" x="2" y="824" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_10.png" x="2" y="413" w="349" h="409"/>
+    <sprite n="00_003017_01_hold_11.png" x="2" y="2" w="349" h="409"/>
+</TextureAtlas>

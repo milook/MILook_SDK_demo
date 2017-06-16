@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+target 'MiLookSwiftDemo' do
+    pod 'SnapKit'
+    pod 'HandyJSON'
+    pod 'ASHorizontalScrollView'
+    pod 'RecordButton'
+    pod 'KYShutterButton'
+    pod 'InfiniteCollectionView'
+    pod 'Toast-Swift'
+    pod 'PermissionScope'
+end

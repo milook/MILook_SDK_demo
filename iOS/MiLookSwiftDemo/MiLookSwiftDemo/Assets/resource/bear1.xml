@@ -1,0 +1,12 @@
+<data facialPart="Eye" description="Milook" name="Milook">
+  <lEye x="0.1" y="0.5" />
+  <rEye x="0.9" y="0.5" />
+  <modelOffset x="8.134675" y="53.47382" z="-50" />
+  <modelScale x="1" y="1" z="1" />
+  <triggers>
+    <item>
+      <trigger expression="EX_M_AH" threshold="0.3504586" />
+      <image imageType="animation" imageName="00_003018.scnassets.xml" repeatTimes="1" />
+    </item>
+  </triggers>
+</data>

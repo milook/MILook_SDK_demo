@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6c079c869e2643038c97dfdb17125401:1/1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="04_000007.scnassets.png" width="2048" height="4096">
+    <sprite n="04_000007_01.png" x="1448" y="1930" w="480" h="480"/>
+    <sprite n="04_000007_02.png" x="966" y="1930" w="480" h="480"/>
+    <sprite n="04_000007_03.png" x="484" y="1930" w="480" h="480"/>
+    <sprite n="04_000007_04.png" x="2" y="1930" w="480" h="480"/>
+    <sprite n="04_000007_05.png" x="1448" y="1448" w="480" h="480"/>
+    <sprite n="04_000007_06.png" x="966" y="1448" w="480" h="480"/>
+    <sprite n="04_000007_07.png" x="484" y="1448" w="480" h="480"/>
+    <sprite n="04_000007_08.png" x="2" y="1448" w="480" h="480"/>
+    <sprite n="04_000007_09.png" x="1448" y="966" w="480" h="480"/>
+    <sprite n="04_000007_10.png" x="966" y="966" w="480" h="480"/>
+    <sprite n="04_000007_11.png" x="484" y="966" w="480" h="480"/>
+    <sprite n="04_000007_12.png" x="2" y="966" w="480" h="480"/>
+    <sprite n="04_000007_13.png" x="1448" y="484" w="480" h="480"/>
+    <sprite n="04_000007_14.png" x="966" y="484" w="480" h="480"/>
+    <sprite n="04_000007_15.png" x="484" y="484" w="480" h="480"/>
+    <sprite n="04_000007_16.png" x="2" y="484" w="480" h="480"/>
+    <sprite n="04_000007_17.png" x="1448" y="2" w="480" h="480"/>
+    <sprite n="04_000007_18.png" x="966" y="2" w="480" h="480"/>
+    <sprite n="04_000007_19.png" x="484" y="2" w="480" h="480"/>
+    <sprite n="04_000007_20.png" x="2" y="2" w="480" h="480"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+framework module MiLookSDK {
+  umbrella header "MiLookSDK.h"
+
+  export *
+  module * { export * }
+}

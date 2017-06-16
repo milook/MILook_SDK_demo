@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/ASHorizontalScrollView" "$PODS_CONFIGURATION_BUILD_DIR/HandyJSON" "$PODS_CONFIGURATION_BUILD_DIR/InfiniteCollectionView" "$PODS_CONFIGURATION_BUILD_DIR/KYShutterButton" "$PODS_CONFIGURATION_BUILD_DIR/PermissionScope" "$PODS_CONFIGURATION_BUILD_DIR/RecordButton" "$PODS_CONFIGURATION_BUILD_DIR/SnapKit" "$PODS_CONFIGURATION_BUILD_DIR/Toast-Swift"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/ASHorizontalScrollView/ASHorizontalScrollView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/HandyJSON/HandyJSON.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/InfiniteCollectionView/InfiniteCollectionView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KYShutterButton/KYShutterButton.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/PermissionScope/PermissionScope.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RecordButton/RecordButton.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SnapKit/SnapKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Toast-Swift/Toast_Swift.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "ASHorizontalScrollView" -framework "HandyJSON" -framework "InfiniteCollectionView" -framework "KYShutterButton" -framework "PermissionScope" -framework "RecordButton" -framework "SnapKit" -framework "Toast_Swift"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
