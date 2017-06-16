@@ -489,14 +489,14 @@
     [self.view addSubview:view ];
     
     //截屏
-    videoView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH/2,SCREEN_HEIGHT/2)];
-    videoView.contentMode = UIViewContentModeScaleAspectFill;
-    videoView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    videoView.backgroundColor = [UIColor clearColor];
-    [videoView setHidden:false];
-    [self.view addSubview:videoView ];
-    
-    miLookSDK.delegate = self;
+//    videoView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH/2,SCREEN_HEIGHT/2)];
+//    videoView.contentMode = UIViewContentModeScaleAspectFill;
+//    videoView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+//    videoView.backgroundColor = [UIColor clearColor];
+//    [videoView setHidden:false];
+//    [self.view addSubview:videoView ];
+//    
+//    miLookSDK.delegate = self;
     
     //face detect
    // [miLookSDK SetTrackDelegate:self];
@@ -526,7 +526,7 @@
     cameraModel = [CameraModel new];
     cameraModel.fps = 30;
     cameraModel.cameraID = 1;
-    cameraModel.previewSize = @"1280x720";
+    cameraModel.previewSize = @"640x480";
     cameraModel.flash = false;
     cameraModel.sound = false;
     UIInterfaceOrientation ori =[[UIApplication sharedApplication] statusBarOrientation];
